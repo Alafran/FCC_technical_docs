@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Python Documentation</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="author" content="Joseph Woodside">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <nav id="navbar">
+  <header id="description">Python Docs</header>
+  <a href="#Hello_World" class="nav-link">Hello World</a>
+  <a href="#Variables" class="nav-link">Variables</a>
+  <a href="#Comments" class="nav-link">Comments</a>
+  <a href="#Operators" class="nav-link">Operators</a>
+  <a href="#Strings" class="nav-link">Strings</a>
+  <a href="#Lists" class="nav-link">Lists</a>
+</nav>
+
+<main id="main-doc">
+  <section class="main-section" id="Hello_World">
+    <header class="section-header">Hello World</header>
+    <code>
+      print "Hello World!"
+    </code>
+    <p>Python is basically executable psuedocode.</p>
+    <p>The print statement is used to send data to the console.</p>
+    <p>Print can be used to send strings, numbers, or any other data type to the console.</p>
+  </section>
+
+  <section class="main-section" id="Variables">
+    <header class="section-header">Variables</header>
+    <code>foo = "text"</code><br/>
+    <code>print foo</code><br/>
+    <code>>>> text</code><br/>
+    <code>bar = 1</code><br/>
+    <code>print bar</code><br/>
+    <code>>>> 1</code><br/>
+    <code>lorem = []</code><br/>
+    <code>ipsum = None</code><br/>
+    <code>print lorem, ipsum</code><br/>
+    <code>>>> []</code><br/>
+    <code>>>> None</code><br/>
+    <p>A variable is an identifier that can be assigned any value in python.</p>
+    <p>Variables can be used in equations, boolean operators, or in any manner a regular data type can be used.</p>
+    <code>foo = 1</code><br/>
+    <code>bar = 2</code><br/>
+    <code>foobar = foo + bar</code><br/>
+    <code>print foobar</code><br/>
+    <code>>>> 3</code><br/>
+  </section>
+
+  <section class="main-section" id="Comments">
+    <header class="section-header">Comments</header>
+    <p>Comments are useful information about your code to help clarify it and help others read it.</p>
+    <p>Comments are ignored by the python interpreter.</p>
+    <p>In python, the '#' character is used to denote a comment.</p>
+    <code>#This data isn't read by the interpreter</code><br/>
+  </section>
+
+  <section class="main-section" id="Operators">
+    <header class="section-header">Operators</header>
+    <p>Operators are traditional mathematical operators, with a few programming specific ones added in.</p>
+    <ul>
+      <li><code>+</code> adds numbers, or concatenates strings</li>
+      <li><code>-</code> subtracts numbers</li>
+      <li><code>*</code> multiplies numbers</li>
+      <li><code>/</code> divides numbers, will only give decimal precision if one of the numbers divided was a decimal to begin with</li>
+      <li><code>%</code> modulo, like '/' but returns the remainder</li>
+      <li><code>**</code> exponents, so <code>2 ** 2</code> is the same as 2<sup>2</sup></li>
+    </ul>
+  </section>
+
+  <section class="main-section" id="Strings">
+    <header class="section-header">Strings</header>
+    <p>Strings are immutable arrays of bytes representing unicode characters.</p>
+    <p>Strings can be indexed, just like a list.</p>
+    <code>foobar = "foobar"</code><br/>
+    <code>print foobar[0:3]</code><br/>
+    <code>>>> foo</code><br/>
+    <code>print foobar[3:]</code><br/>
+    <code>>>> bar</code><br/>
+  </section>
+
+  <section class="main-section" id="Lists">
+    <header class="section-header">Lists</header>
+    <p>Lists are indexable,mutable data structures that can store any data type.</p>
+  </section>
+
+</main>
+  </body>
+</html>
